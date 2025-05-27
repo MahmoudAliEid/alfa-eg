@@ -1,6 +1,7 @@
 {
   "name": "alfa-eg",
   "version": "0.1.0",
+  "author": "Soft Masters (MS)",
   "private": true,
   "scripts": {
     "dev": "next dev",

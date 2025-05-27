@@ -407,18 +407,14 @@ export default function AlfaCompanyWebsite() {
               size="lg"
               className="bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-700 hover:to-orange-700 text-white px-8 py-4 text-lg shadow-xl hover:shadow-2xl transition-all duration-300">
               <Globe className="mr-2 h-5 w-5" />
-              <a href="/#services"
-               
-              >اكتشف خدماتنا</a>
+              <a href="/#services">اكتشف خدماتنا</a>
               <ArrowRight className="mr-2 h-5 w-5" />
             </Button>
             <Button
               size="lg"
               variant="outline"
               className="border-2 border-amber-600 text-amber-600 hover:bg-amber-50 px-8 py-4 text-lg">
-              <a href="/#contact">
-                تواصل معنا
-              </a>
+              <a href="/#contact">تواصل معنا</a>
             </Button>
           </motion.div>
         </div>
@@ -779,6 +775,18 @@ export default function AlfaCompanyWebsite() {
                         content: "السبت - الخميس: 9:00 ص - 6:00 م",
                         gradient: "from-purple-500 to-pink-500",
                       },
+                      {
+                        icon: Briefcase,
+                        title: "رقم السجل التجاري",
+                        content: "16341",
+                        gradient: "from-orange-500 to-red-500",
+                      },
+                      {
+                        icon: BarChart3,
+                        title: "الرقم الضريبي",
+                        content: "620284835",
+                        gradient: "from-indigo-500 to-blue-500",
+                      },
                     ].map((item, index) => (
                       <motion.div
                         key={index}
@@ -814,7 +822,7 @@ export default function AlfaCompanyWebsite() {
               <CardContent className="p-0">
                 <div className="h-96 bg-gray-100 relative overflow-hidden">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.8974!2d31.3260!3d30.0626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzDCsDAzJzQ1LjQiTiAzMcKwMTknMzMuNiJF!5e0!3m2!1sen!2seg!4v1234567890"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.8974!2d31.3260!3d30.0626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzDCsDAzQ1LjQiTiAzMcKwMTknMzMuNiJF!5e0!3m2!1sen!2seg!4v1234567890"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}

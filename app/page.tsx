@@ -322,7 +322,7 @@ export default function AlfaCompanyWebsite() {
           className="absolute inset-0 bg-gradient-to-br from-amber-500/10 via-orange-500/5 to-transparent"
         />
 
-        <div className="container mx-auto px-4 text-center relative z-10">
+        <div className="container mx-auto px-4 pt-28 text-center relative z-10">
           <motion.div
             initial={{ opacity: 0, scale: 0.5, rotateY: 180 }}
             animate={{ opacity: 1, scale: 1, rotateY: 0 }}
